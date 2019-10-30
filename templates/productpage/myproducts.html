@@ -5,7 +5,7 @@
                 Product page
             </title>
             <link rel="stylesheet" type="text/css" href="{% static 'productpage/css/product.css' %}">
-            <link rel="stylesheet" href="{% static 'home/bootstrap/css/bootstrap.min.css' %}" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">            <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"> 
+            <link rel="stylesheet" href="{% static 'home/bootstrap/css/bootstrap.min.css' %}" crossorigin="anonymous"> 
             <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
         
 
@@ -78,7 +78,7 @@
                       
                      
         </div>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="{% static 'home/jquery.min.js' %}"></script>
         <script>
             var data,ownerName;
 var users,currentUser;
